@@ -28,6 +28,7 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 conda config --set proxy_servers.http http://192.168.57.61:10809
 conda config --set proxy_servers.https https://192.168.57.61:10809
 ```
+</details>
 
 <details open>
 <summary>cuda</summary>
@@ -52,7 +53,8 @@ export PATH=/usr/local/cuda-11.1/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.1/lib64
 nvcc -V
 ``` 
-  
+</details>
+
 <details open>
 <summary>TensorRT</summary>
 安装tensorrt
@@ -69,6 +71,7 @@ pip install uff-0.5.5-py2.py3-none-any.whl
 cd ../graphsurgeon
 pip install graphsurgeon-0.3.2-py2.py3-none-any.whl
 ```  
+</details>
   
 ```bash
 ```
