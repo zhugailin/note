@@ -113,3 +113,37 @@ git pull = {git fetch; git merge o/main)
 git fakeTeamwork foo 3
 ```
 </details>
+
+## <div align="center">杂烩</div>
+screen的使用
+  
+```bash
+screen
+    -ls # 查看存在的screen
+    -dms  yh_test # 创建screen
+    -r yh_test # 加入screen
+    exit # 退出并删除screen
+```
+rsync,不同服务器之间目录同步
+
+```bash
+rsync -r -K --delete /dataset/uploading_data/ yuanhui@172.26.12.14:/dataset/uploading_data/
+```
+vim常用命令
+
+```bash
+nyy/P # 复制粘贴
+## 搜索关键词
+/user  # 表示搜索user
+## 替换关键字
+:n,$s/vivian/sky/g # 替换第 n 行开始到最后一行中每一行所有 vivian 为 sky
+```
+查看cpu
+
+```bash
+## 查看逻辑核数量
+cat /proc/cpuinfo| grep "processor"| wc -l
+## 查看物理核数量
+cat /proc/cpuinfo| grep "physical id"| sort| uniq| wc -l
+```
+
