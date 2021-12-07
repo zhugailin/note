@@ -72,9 +72,20 @@ cd ../graphsurgeon
 pip install graphsurgeon-0.3.2-py2.py3-none-any.whl
 ```  
 </details>
-  
+
+<details close>
+<summary>detectron2</summary>
+安装detectron2
+
 ```bash
-```
+git clone https://github.com/facebookresearch/detectron2.git
+## 1. 用pip安装
+python -m pip install -e detectron2
+## 2. 用build安装
+cd detectron2
+python setup.py build develop
+```  
+</details>
 
 ## <div align="center">杂烩</div>
 
