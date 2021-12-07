@@ -121,6 +121,12 @@ git pull = {git fetch; git merge o/main)
 ## 远程库添加伪提交
 git fakeTeamwork foo 3
 ```
+git 实练命令
+  
+```bash
+git tag \ # 查看tag
+    --contains 11528ce083dc9ff83ee3a8f908  # 查看包含此提交的tag
+```
 </details>
 
 ## <div align="center">杂烩</div>
