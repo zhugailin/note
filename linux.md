@@ -38,7 +38,7 @@ docker commit -a "yh_test" -m "build detectron2 develop" bc94bd5dc434  yh/dnn:ub
 ## 打包镜像
 docker save -o yh_dnn.tar yh/dnn:ub18-cuda11.1-conda-trt7.2
 本地载入镜像
-docker load --input yh_trt7.2.tar
+docker load --input yh_dnn.tar
 ```
 常用命令
 
