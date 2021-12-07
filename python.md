@@ -1,5 +1,5 @@
 ## <div align="center">配置环境</div>
-<details open>
+<details close>
 <summary>conda</summary>
 搭建miniconda环境
   
@@ -30,7 +30,7 @@ conda config --set proxy_servers.https https://192.168.57.61:10809
 ```
 </details>
 
-<details open>
+<details close>
 <summary>cuda</summary>
 搭建cuda安装环境
   
@@ -55,7 +55,7 @@ nvcc -V
 ``` 
 </details>
 
-<details open>
+<details close>
 <summary>TensorRT</summary>
 安装tensorrt
 
@@ -75,6 +75,13 @@ pip install graphsurgeon-0.3.2-py2.py3-none-any.whl
   
 ```bash
 ```
+
+## <div align="center">杂烩</div>
+
+bytes, str, int, hex之间的转换: https://blog.csdn.net/xuzhexing/article/details/90766651
+
+
+
 
 
  
