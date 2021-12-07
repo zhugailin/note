@@ -88,6 +88,7 @@ service ssh restart
 ubuntu-drivers devices
 ## 安装驱动
 sudo apt-get install nvidia-driver-470  ## 可选择最新版本
+## 重启生效
 ```
 </details>
 
