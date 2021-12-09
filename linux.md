@@ -104,6 +104,12 @@ sudo systemctl restart docker
 ## <div align="center">GIT</div>
 <details close>
 <summary>git命令</summary>
+环境配置
+  
+```bash
+## 生成密钥
+ssh-keygen -t rsa -C "yuanhui@ut.cn"
+```
 git常用命令
   
 ```bash
